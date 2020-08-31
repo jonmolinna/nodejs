@@ -1,0 +1,16 @@
+1.- npm init --yes => crea un archivo de package.json
+2.- npm install express => modulo de nodejs
+3.- npm install mongodb => modulo que permite conectar a la base de datos de mongodb
+4.- Algunos datos
+    - npm install --save-dev
+        - @babel/core => Babel
+        - @babel/cli => Permite ejecutar desde la consola
+        - @babel/present-env => permite utilizar codigo moderna de javascript
+    - npm install --save @babel/polyfill => modulo de javascript que soporta en distintos entornos
+5.- npm install --save-dev @babel/core @babel/cli @babel/preset-env
+6.- npm install @babel/node -D => soporta los codigos de node a emascript 10 o nuevas versiones
+7.- "build": "babel src --out-dir dist" (package.json) => convierte el codigo moderno a codigo de js
+8.- npm run build => tranforma el codigo de producion a distribucion
+9.- npm start => levanta el codigo de distribucion
+10.- npm install nodemon -D
+11.- npm install --save @babel/polyfill
